@@ -18,7 +18,8 @@ html body::after {
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx___BODY___xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 body{
-    background-image: url(../images/bg5.png);
+    background-color: black;
+    background-image: url("../images/bg5.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
