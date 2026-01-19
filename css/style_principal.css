@@ -32,16 +32,18 @@ header nav ul{
 }
 header nav ul li{
     text-align: center;
-    border-bottom: 1px solid #dedede;
+    border-bottom: 1px solid white;
     background-color: rgb(0, 0, 0);
-    margin: 0 10px;
 }
 header nav a{
-    text-decoration: none;
+    text-decoration: none; 
+    display: block;
+    padding: 15px 15px;
     color: white;
 }
 header nav a:hover{
-    color: #e4bd49;
+    background-color: white;
+    color: black;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx___CLASS___xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 .logo{
@@ -54,7 +56,7 @@ header nav a:hover{
 .banner{
     height: 400px;
     background-color: rgb(0, 0, 0);
-    border: 1px solid white;
+    border: 1px solid rgba(255, 0, 106, 0.77);
     border-radius: 500px;
     text-align: center;
 }
@@ -83,24 +85,19 @@ main .bann-position{
         padding: 0;
     }
     header nav ul{
-        list-style-type: none;
-        display: inline-flex;
+        display:flex;
+        justify-content:center;
     }
     header nav ul li{
         border-bottom-width: 0;
+        width: 25%;
         box-sizing: border-box;
-        margin: auto;
-        padding: 20px;
-    }
-    header nav a{
-        color: white;
+    }   
+    header nav ul li:not(:last-child){
+        border-right: 5px solid rgba(255, 0, 106, 0.77);
     }
     .banner{
-    height: 400px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border: 1px solid white;
-    border-radius: 500px;
-    text-align: center;
+    height: 400px;;
     display: flex;
     align-items: center;
     justify-content: center;
